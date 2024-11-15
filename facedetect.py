@@ -72,8 +72,8 @@ def app():
         # Ajout de la fonctionnalité d'enregistrement
         if detected_image is not None:
             if st.button("Enregistrer l'image"):
-                cv2.imwrite("image_detected.jpg", detected_image)
-                st.success("Image sauvegardée sous le nom 'image_detected.jpg'")
+                cv2.imwrite("image_detecte.jpg", detected_image)
+                st.success("Image sauvegardée sous le nom 'image_detecte.jpg'")
 
 if __name__ == "__main__":
     app()
