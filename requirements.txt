@@ -1,2 +1,2 @@
-opencv-python
-streamlit
+opencv-python==4.5.5.64
+streamlit==1.12.2
