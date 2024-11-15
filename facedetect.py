@@ -1,4 +1,4 @@
-from opencv-python import cv2
+import cv2
 import streamlit as st
 
 def detect_faces(color_bgr, scale_factor, min_neighbors):
